@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2881161029881609092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2881161029881609090}
+  - component: {fileID: 2881161029881609093}
+  - component: {fileID: 8645817744469745090}
+  - component: {fileID: 9031925760418304649}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2881161029881609090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881161029881609092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3798336, y: 0.37750578, z: -0.0234375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2881161029881609093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881161029881609092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73d501cbb4e38849b61f45ad55ecdfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Egg_01: {fileID: 6758248098647770348, guid: 8b85556a848c0834e98bd228f523f3a2, type: 3}
+  Egg_02: {fileID: 6758248098647770348, guid: 8b85556a848c0834e98bd228f523f3a2, type: 3}
+  Egg_03: {fileID: 6758248098647770348, guid: 8b85556a848c0834e98bd228f523f3a2, type: 3}
+  Create_Position: {x: 0, y: 0, z: 0}
+  SetPosition:
+  - {x: -8, y: 2, z: 0}
+  - {x: -8, y: 0, z: 0}
+  - {x: -8, y: -2, z: 0}
+  num: 0
+--- !u!114 &8645817744469745090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881161029881609092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3d6ec0b80c77647a9daac4cd8f2254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  In_Egg_Huka_Flg_01: 0
+  In_Egg_Huka_Flg_02: 0
+  Catch_Egg_Player_01: 0
+  Catch_Egg_Player_02: 0
+--- !u!114 &9031925760418304649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881161029881609092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905fe4506876ab84cbd5d4dc99da1b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hiyoko1: {fileID: 0}
+  Hiyoko2: {fileID: 0}
+  Hiyoko3: {fileID: 0}
+  Hiyoko4: {fileID: 0}
+  Hiyoko5: {fileID: 0}
+  Hiyoko6: {fileID: 0}
